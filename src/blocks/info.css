@@ -31,6 +31,10 @@
   margin-bottom: 20px;
 }
 
+.info__point:last-of-type {
+  margin-bottom: 0;
+}
+
 .info__tick {
   width: 20px;
   height: 20px;

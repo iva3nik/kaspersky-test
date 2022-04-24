@@ -1,0 +1,33 @@
+.systems__title {
+  font-family: "Kaspersky Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  margin-bottom: 13px;
+}
+
+.systems__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.systems__item {
+  padding: 0 20px;
+  border-right: 1px solid #666666;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.systems__item:first-of-type {
+  padding: 0 20px 0 0;
+}
+
+.systems__item:last-of-type {
+  padding: 0 0 0 20px;
+  border: none;
+}
