@@ -1,0 +1,57 @@
+.info {
+  padding: 50px 24px 27px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Kaspersky Sans", serif;
+  font-style: normal;
+}
+
+.info__title {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.info__line {
+  width: 85px;
+  height: 2px;
+  margin: 34px 0 9px;
+  border: none;
+  background-color: white;
+}
+
+.info__subtitle {
+  font-size: 24px;
+  line-height: 27px;
+  margin: 0 0 26px;
+}
+
+.info__point {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info__tick {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/tick.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+
+.info__text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #ffffff80;
+}
+
+.info__text span {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+}
