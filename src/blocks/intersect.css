@@ -1,0 +1,11 @@
+.intersect {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intersect__image {
+  height: 372px;
+  object-fit: contain;
+  object-position: 0 0;
+}
