@@ -170,3 +170,97 @@
 .offer__button:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 1024px) {
+  .offer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offer__discount {
+    align-self: center;
+    height: 40px;
+    font-size: 21px;
+    line-height: 24px;
+    margin-left: 50px;
+  }
+
+  .offer__main {
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .offer__header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(43.5% - 32px);
+    padding: 4px 0;
+  }
+
+  .offer__column {
+    width: 100%;
+    margin-left: 32px;
+  }
+
+  .offer__prices {
+    width: 179px;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #ffffff20;
+    border-left: 2px solid #ffffff20;
+  }
+
+  .offer__price {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .offer__old-price {
+    margin-right: 12px;
+  }
+
+  .offer__buttons {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .offer__button-icon {
+    width: 191px;
+    margin: 0 24px 0 0;
+  }
+
+  .offer__button {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offer__discount {
+    width: 285px;
+    margin-left: 100px;
+  }
+
+  .offer__header {
+    width: calc(470px - 32px);
+  }
+
+  .offer__prices {
+    width: 285px;
+    flex-shrink: 0;
+  }
+
+  .offer__buttons {
+    width: calc(375px - 32px);
+    justify-content: end;
+  }
+
+  .offer__button {
+    width: 118px;
+  }
+}

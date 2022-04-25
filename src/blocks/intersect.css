@@ -9,3 +9,15 @@
   object-fit: contain;
   object-position: 0 0;
 }
+
+@media screen and (min-width: 1024px) {
+  .intersect__image {
+    height: 580px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intersect__image {
+    height: 768px;
+  }
+}

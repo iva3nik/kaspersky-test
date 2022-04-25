@@ -35,3 +35,28 @@
   padding: 0 0 0 20px;
   border: none;
 }
+
+@media screen and (min-width: 1024px) {
+  .systems {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+  }
+
+  .systems__title {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .systems {
+    left: 137px;
+  }
+}

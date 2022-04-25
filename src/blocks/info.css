@@ -1,6 +1,5 @@
 .info {
   padding: 50px 24px 27px;
-  box-sizing: border-box;
   color: white;
   font-family: "Kaspersky Sans", serif;
   font-style: normal;
@@ -36,6 +35,7 @@
 }
 
 .info__tick {
+  margin-top: 6px;
   width: 20px;
   height: 20px;
   background-image: url(../images/tick.svg);
@@ -58,4 +58,49 @@
   font-size: 20px;
   line-height: 32px;
   color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 50px 0 27px 60px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .info {
+    padding: 50px 0 27px 166px;
+    width: 607px;
+  }
+
+  .info__title {
+    font-size: 64px;
+    line-height: 68px;
+  }
+
+  .info__line {
+    width: 89px;
+    margin: 35px 0 5px;
+  }
+
+  .info__subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 0 50px;
+  }
+
+  .info__tick {
+    margin-right: 16px;
+  }
+
+  .info__text {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+  }
+
+  .info__text span {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
