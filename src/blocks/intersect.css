@@ -1,13 +1,41 @@
 .intersect {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .intersect__image {
   height: 372px;
   object-fit: contain;
   object-position: 0 0;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .intersect {
+    background: linear-gradient(
+        100.56deg,
+        rgba(29, 29, 27, 0) 0%,
+        #1d1d1b 59.08%
+      ),
+      linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1d1d1b 100%),
+      linear-gradient(103.91deg, #23d1ae 0%, rgba(1, 50, 35, 0) 59.93%);
+    opacity: 0.8;
+  }
+
+  .intersect__image {
+    height: 580px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .intersect {
+    flex-direction: row-reverse;
+  }
+
+  .intersect__image {
+    align-self: flex-start;
+  }
 }
 
 @media screen and (min-width: 1024px) {

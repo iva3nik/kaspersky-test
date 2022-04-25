@@ -10,7 +10,7 @@
   .optimal {
     padding: 0 40px;
     width: 1024px;
-    margin: 0 auto;
+    margin: 52px auto 0;
   }
 }
 
@@ -18,5 +18,8 @@
   .optimal {
     padding: 0 134px;
     width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 104px;
   }
 }
