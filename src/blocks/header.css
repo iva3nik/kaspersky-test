@@ -54,5 +54,7 @@
 @media screen and (min-width: 1440px) {
   .header {
     padding: 13px 164px 13px 166px;
+    width: 1440px;
+    left: auto;
   }
 }

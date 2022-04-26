@@ -3,6 +3,7 @@
   color: white;
   font-family: "Kaspersky Sans", serif;
   font-style: normal;
+  z-index: 1;
 }
 
 .info__title {
