@@ -87,6 +87,8 @@
   font-weight: 700;
   font-size: 54px;
   line-height: 52px;
+  display: flex;
+  align-items: baseline;
 }
 
 .offer__price span {
@@ -134,10 +136,19 @@
   font-size: 16px;
   line-height: 20px;
   transition: all 0.3s linear;
+  position: relative;
+}
+
+.offer__button-icon.open {
+  border-bottom: none;
 }
 
 .offer__button-icon:hover {
   opacity: 0.6;
+}
+
+.offer__button-icon:hover.open {
+  opacity: 1;
 }
 
 .offer__icon {
@@ -147,6 +158,38 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.offer__button-icon.open .offer__menu {
+  display: block;
+}
+
+.offer__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 100%;
+  top: 36px;
+  left: -2px;
+  background-color: #15c1a1;
+}
+
+.offer__menu li {
+  padding: 15px 0 15px 13px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+}
+
+.offer__menu li:hover {
+  background: #7fe3ce;
+  cursor: pointer;
 }
 
 .offer__button {
@@ -253,6 +296,11 @@
   .offer__prices {
     width: 285px;
     flex-shrink: 0;
+  }
+
+  .offer__price {
+    font-size: 54px;
+    line-height: 68px;
   }
 
   .offer__buttons {
