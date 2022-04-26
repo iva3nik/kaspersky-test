@@ -12,6 +12,22 @@ const dropdown = [
 const defaultItem = 2;
 const offer = document.querySelector(".offer");
 const buttonChoice = offer.querySelector(".offer__button-icon");
+const header = document.querySelector(".header");
+
+let lastScrollTop = 0;
+window.addEventListener(
+  "scroll",
+  function () {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop) {
+      header.style.display = "none";
+    } else {
+      header.style.display = "flex";
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  },
+  false
+);
 
 const handlePrices = (itemId) => {
   buttonChoice.querySelector(".offer__button-text").textContent =
@@ -42,7 +58,6 @@ const closeDropdown = () => {
 
 const selectPoint = (id) => {
   const item = dropdown.find((i) => i.id === id).id;
-  console.log(item);
   handlePrices(item);
   closeDropdown();
 };
