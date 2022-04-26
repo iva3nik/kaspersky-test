@@ -97,6 +97,11 @@
     font-size: 32px;
     line-height: 36px;
     margin: 0 0 50px;
+    width: 538px;
+  }
+
+  .info__point {
+    width: 503px;
   }
 
   .info__tick {
