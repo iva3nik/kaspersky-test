@@ -18,7 +18,7 @@ let lastScrollTop = 0;
 window.addEventListener(
   "scroll",
   function () {
-    var st = window.pageYOffset || document.documentElement.scrollTop;
+    let st = window.pageYOffset || document.documentElement.scrollTop;
     if (st > lastScrollTop) {
       header.style.display = "none";
     } else {
