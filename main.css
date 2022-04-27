@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{margin:0;padding:0}div{box-sizing:border-box}fieldset{border:n
 /*!************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/optimal.css ***!
   \************************************************************************************************************************************************/
-.optimal{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;position:relative}@media screen and (min-width:1024px){.optimal{margin:52px auto 0;padding:0 40px;width:1024px}}@media screen and (min-width:1440px){.optimal{bottom:104px;margin:0 auto;padding:0 134px;position:relative;width:100%}}
+.optimal{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;position:-webkit-sticky;position:sticky;top:60px}@media screen and (min-width:1024px){.optimal{margin:52px auto 0;padding:0 40px;width:1024px}}@media screen and (min-width:1440px){.optimal{margin:0 auto;padding:0 134px;position:relative;top:-106px;width:100%}}
 /*!************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/systems.css ***!
   \************************************************************************************************************************************************/
